@@ -1,13 +1,14 @@
 ===============
 beartype-assets
 ===============
-Unbearably aesthetic images, styles, and other assets leveraged by
-`beartype <https://github.com/beartype/beartype>`_
+Unbearably aesthetic images, styles, and other assets leveraged by `Beartype`_
 - Python's O(1) runtime type-checker.
 
 Licenses
 ========
-Copyright (c) 2021 Beartype
+Copyright (c) 2021 `Beartype`_
+
+Copyright of individual files belongs to their creator as listed below.
 
 MIT License
 -----------
@@ -29,19 +30,22 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-CC BY-NC-SA 4.0 License
------------------------
+CC BY 4.0 License
+-----------------
 In addition, you may - at your option - use, copy, modify and redistribute all
 images included in this distribution according to the terms and conditions of
-the Creative Commons Attribution NonCommercial ShareAlike 4.0 International
-License. Attribution must be given according to the Title, Creator listed
-below, and to Beartype. To view a copy of this license, visit
-http://creativecommons.org/licenses/by-nc-sa/4.0/
+the Creative Commons Attribution 4.0 International License.
+Attribution must be given according to the Title and Creator listed below,
+and to Beartype. To view a copy of this license, visit
+http://creativecommons.org/licenses/by/4.0/
 
-+-----------------------+-----------------+--------------+
-| File path             | Title           | Creator      |
-+=======================+=================+==============+
-| banner/logo.png       | Mr. Nectar Palm | Felix Hildén |
-+-----------------------+-----------------+--------------+
-| banner/logo-small.png | Mr. Nectar Palm | Felix Hildén |
-+-----------------------+-----------------+--------------+
++-----------------------+-----------------+-----------------+
+| File path             | Title           | Creator         |
++=======================+=================+=================+
+| banner/logo.png       | Mr. Nectar Palm | `Felix Hildén`_ |
++-----------------------+-----------------+-----------------+
+| banner/logo-small.png | Mr. Nectar Palm | `Felix Hildén`_ |
++-----------------------+-----------------+-----------------+
+
+.. _beartype: https://github.com/beartype/beartype
+.. _Felix Hildén: https://github.com/felix-hilden
