@@ -5,7 +5,7 @@ Mr. Nectar Palm
 This directory provides several versions of **Mr. Nectar Palm** as a horizontal
 banner for use across `beartype`_ projects. **Mr. Nectar Palm** is the official
 `beartype`_ mascot and original creation of `Felix Hildén`_, Finland's most
-significant export since Moonsorrow_ dropped `V: Hävitetty_<Hävitetty_>`__ to
+significant export since Moonsorrow_ dropped `V: Hävitetty <Hävitetty_>`__ to
 acclaim by viking heroes the world over.
 
 Licenses
@@ -14,13 +14,13 @@ All images in this directory are open-source artwork dual-licensed under both
 the permissive `MIT <MIT license_>`__ and `CC BY 4.0 licenses <CC BY 4.0_>`__.
 Copyright of individual files belongs to their creator, `Felix Hildén`_:
 
-+--------------------+---------------------+-----------------+
-| Filename           | Title               | Creator         |
-+====================+=====================+=================+
-| ``logo.png``       | **Mr. Nectar Palm** | `Felix Hildén`_ |
-+--------------------+---------------------+-----------------+
-| ``logo-small.png`` | **Mr. Nectar Palm** | `Felix Hildén`_ |
-+--------------------+---------------------+-----------------+
++-----------------------------------------+---------------------+-----------------+
+| Filename                                | Title               | Creator         |
++=========================================+=====================+=================+
+| `logo.png <banner logo large_>`__       | **Mr. Nectar Palm** | `Felix Hildén`_ |
++-----------------------------------------+---------------------+-----------------+
+| `logo-small.png <banner logo small_>`__ | **Mr. Nectar Palm** | `Felix Hildén`_ |
++-----------------------------------------+---------------------+-----------------+
 
 MIT License
 -----------
@@ -58,6 +58,12 @@ Attribution must be given according to the Title and Creator listed above.
 .. # ------------------( LINKS ~ license                    )------------------
 .. _CC BY 4.0:
    http://creativecommons.org/licenses/by/4.0
+
+.. # ------------------( LINKS ~ local                      )------------------
+.. _banner logo large:
+   logo.png
+.. _banner logo small:
+   logo-small.png
 
 .. # ------------------( LINKS ~ metal                      )------------------
 .. _Moonsorrow:
