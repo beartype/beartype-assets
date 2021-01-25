@@ -48,7 +48,7 @@ CC BY 4.0 License
 -----------------
 In addition, you may - at your option - use, copy, modify and redistribute all
 images included in this distribution according to the terms and conditions of
-the `Creative Commons Attribution 4.0 International License (CC BY 4.0) `__.
+the `Creative Commons Attribution 4.0 International License <CC BY 4.0_>`__.
 Attribution must be given according to the Title and Creator listed above.
 
 .. # ------------------( LINKS ~ beartype                   )------------------
