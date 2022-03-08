@@ -25,11 +25,11 @@ Copyright of individual files belongs to their creators, `Cecil Curry`_ and
 +--------------------------------------------+--------------------+---------------------------------+
 | Filename                                   | Title              | Creators                        |
 +============================================+====================+=================================+
-| `logo-5200x1600.png <brand logo large_>`__ | **Mr. Hypno Palm** | `Cecil Curry`_; `Felix Hildén`_ |
+| `brand-5200x1600.png <brand logo large_>`__ | **Mr. Hypno Palm** | `Cecil Curry`_; `Felix Hildén`_ |
 +--------------------------------------------+--------------------+---------------------------------+
-| `logo-2600x800.png <brand logo medium_>`__ | **Mr. Hypno Palm** | `Cecil Curry`_; `Felix Hildén`_ |
+| `brand-2600x800.png <brand logo medium_>`__ | **Mr. Hypno Palm** | `Cecil Curry`_; `Felix Hildén`_ |
 +--------------------------------------------+--------------------+---------------------------------+
-| `logo-520x160.png <brand logo small_>`__   | **Mr. Hypno Palm** | `Cecil Curry`_; `Felix Hildén`_ |
+| `brand-520x160.png <brand logo small_>`__   | **Mr. Hypno Palm** | `Cecil Curry`_; `Felix Hildén`_ |
 +--------------------------------------------+--------------------+---------------------------------+
 
 MIT License
