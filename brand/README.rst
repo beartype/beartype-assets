@@ -10,8 +10,8 @@ maintainer `Cecil Curry`_ from the original creation of `Felix Hildén`_.
 
 This work gratefully incorporates:
 
-* Beams_, a capital typeface licensed by freelance typographer Altay Dagistan
-  under the `SIL Open Font License (OFL) <OFL_>`__.
+* Beams_, a capital typeface licensed by boss typographer Altay Dagistan under
+  the `SIL Open Font License (OFL) <OFL_>`__.
 * Synephrine_, an infinitely recursive fractal flame authored by the popular
   Dutch graphic designer Senzune_.
 
@@ -73,11 +73,11 @@ Attribution must be given according to the Title and Creator listed above.
 
 .. # ------------------( LINKS ~ local                      )------------------
 .. _brand logo large:
-   logo-5200x1600.png
+   brand-5200x1600.png
 .. _brand logo medium:
-   logo-2600x800.png
+   brand-2600x800.png
 .. _brand logo small:
-   logo-520x160.png
+   brand-520x160.png
 
 .. # ------------------( LINKS ~ works                      )------------------
 .. _Beams:
