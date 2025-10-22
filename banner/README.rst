@@ -14,13 +14,15 @@ All images in this directory are open-source artwork dual-licensed under both
 the permissive `MIT <MIT license_>`__ and `CC BY 4.0 licenses <CC BY 4.0_>`__.
 Copyright of individual files belongs to their creator, `Felix Hildén`_:
 
-+-----------------------------------------+---------------------+-----------------+
-| Filename                                | Title               | Creator         |
-+=========================================+=====================+=================+
-| `logo.png <banner logo large_>`__       | **Mr. Nectar Palm** | `Felix Hildén`_ |
-+-----------------------------------------+---------------------+-----------------+
-| `logo-small.png <banner logo small_>`__ | **Mr. Nectar Palm** | `Felix Hildén`_ |
-+-----------------------------------------+---------------------+-----------------+
++-------------------------------------------+----------------------------------+------------+-----------------+
+| Filename                                  | Title                            | Dimensions | Creator         |
++===========================================+==================================+============+=================+
+| `logo.png <banner logo large_>`__         | **Mr. Nectar Palm:** MegaChonker | 5200x1400  | `Felix Hildén`_ |
++===========================================+==================================+============+=================+
+| `logo-medium.png <banner logo medium_>`__ | **Mr. Nectar Palm:** HeftyChonk  | 1550x500   | `Felix Hildén`_ |
++-------------------------------------------+----------------------------------+------------+-----------------+
+| `logo-small.png <banner logo small_>`__   | **Mr. Nectar Palm:** MiniChonk   | 520x140    | `Felix Hildén`_ |
++-------------------------------------------+----------------------------------+------------+-----------------+
 
 MIT License
 -----------
@@ -62,6 +64,8 @@ Attribution must be given according to the Title and Creator listed above.
 .. # ------------------( LINKS ~ local                      )------------------
 .. _banner logo large:
    logo.png
+.. _banner logo medium:
+   logo-medium.png
 .. _banner logo small:
    logo-small.png
 
