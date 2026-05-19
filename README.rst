@@ -6,13 +6,13 @@ Unbearably aesthetic images, styles, and other assets for general-purpose reuse
 across `beartype`_ projects – including:
 
 +------------------------------+---------------------------------------------+------------------------+
-| Directory                    | Assets                                      | Creator                |
+| Location                     | Assets                                      | Creator                |
 +==============================+=============================================+========================+
 | `badge/ <assets badge_>`__   | |bear-ified| badge                          | |@posita|_             |
 +------------------------------+---------------------------------------------+------------------------+
 | `banner/ <assets banner_>`__ | **Mr. Nectar Palm,** the `beartype`_ mascot | `Felix Hildén`_        |
 +------------------------------+---------------------------------------------+------------------------+
-| `favicon.ico <favicon_>`__   | **Mr. Nectar Palm,**, *iconified*.          | `Felix Hildén`_ |sup1| |
+| `favicon.svg <favicon_>`__   | **Mr. Nectar Palm,** *iconified*.           | `Felix Hildén`_ |sup1| |
 +------------------------------+---------------------------------------------+------------------------+
 
 .. # ------------------( LINKS ~ beartype                   )------------------
@@ -25,7 +25,7 @@ across `beartype`_ projects – including:
 .. _assets banner:
    banner/
 .. _favicon:
-   https://raw.githubusercontent.com/beartype/beartype-assets/main/favicon.ico
+   https://raw.githubusercontent.com/beartype/beartype-assets/main/favicon.svg
 
 .. # ------------------( LINKS ~ users                      )------------------
 .. _Felix Hildén:
@@ -46,17 +46,28 @@ across `beartype`_ projects – including:
 .. |sup1| unicode:: U+00B9
 .. |shush| unicode:: U+1F92B
 ..
-    favicon.ico was created with the following (requires ImageMagick):
-      magick \
-        https://raw.githubusercontent.com/beartype/beartype-assets/main/banner/logo.png \
-        -crop 1500x1400+0+0 +repage \
-        -background none \
-        -extent 1500x1500 \
-        -gravity center \
-        favicon.png
-      convert favicon.png \
-        -background transparent \
-        -define icon:auto-resize \
-        -colors 256 \
-        favicon.ico
-      rm -f favicon.png
+    banner/logo.svg and favicon.svg were created with the following (requires ImageMagick):
+
+        curl --location --remote-name 'https://github.com/visioncortex/vtracer/releases/download/0.6.4/vtracer-x86_64-unknown-linux-musl.tar.gz'
+        sha256sum --check <(
+          echo '9290ba0c90e224d6d212836dff5491407c1718bcb72f80b2b5a4a01816df5e40  vtracer-x86_64-unknown-linux-musl.tar.gz'
+        )
+        tar xpvf vtracer-x86_64-unknown-linux-musl.tar.gz
+        ./vtracer \
+            --hierarchical cutout \
+            --mode polygon \
+            --input banner/logo.png \
+            --output banner/logo.svg
+        magick \
+            https://raw.githubusercontent.com/beartype/beartype-assets/main/banner/logo.png \
+            -crop 1500x1400+0+0 +repage \
+            -background none \
+            -extent 1500x1500 \
+            -gravity center \
+            favicon.png
+        ./vtracer \
+            --hierarchical cutout \
+            --mode polygon \
+            --input banner/favicon.png \
+            --output favicon.svg
+        rm -f favicon.png
